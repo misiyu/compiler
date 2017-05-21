@@ -1,0 +1,128 @@
+const int MAX=20,MIN=0;
+const char grade='A';
+const float PAI=3.14;
+int i1,i2;
+float f1,f2,f3;
+char ch1;
+void test1(int p1,char p2,float p3)
+{
+	const int MAX=20,MIN=0;
+	const char grade='A';
+	const float PAI=3.14;
+	int i;
+	i=1+1;
+	if(1<=1)
+		if(0!=1)
+			if(0==0)
+				if(1>0)
+					if(1>=0)
+						i=1*1;
+	printf(i);
+}
+void test2()
+{
+	char abcdefghijklmnopqrstuvwxyz_____;
+	int n;
+	float f;
+	int is[10];
+	char chs[10];
+	float fs[10];
+	abcdefghijklmnopqrstuvwxyz_____ = '1';
+	n = -0;
+	is[0]=1234567890;
+	is[1]=+1;
+	f = -111.0;
+	f = ++0;
+	fs[0] = f+1*(0+0+f+1/1)-9;
+	fs[1] = --0.;
+	printf(fs[0]);
+}
+void test3(char ch)
+{
+	switch(ch)
+	{
+		case 'a': printf("aaa");
+	}
+	;;;
+}
+char testWhile()
+{
+	int i;
+	i=0;
+	while(i<10)
+	{
+		i = i+1;
+	}
+	printf(i);
+	return ('a');
+}
+void output(int n)
+{
+	if(n>0)
+	{
+		printf(" ",n);
+		output(n-1);
+	}
+	else
+		return ;
+}
+void test4()
+{
+	int a,b,c;
+	scanf(a);
+	printf(a);
+	scanf(b,c);
+	printf(" ",b);
+	printf(" ",c);
+	scanf(a,b,c);
+	printf(" ",a);
+	printf(" ",b);
+	printf(" ",c);
+}
+float test5()
+{
+	;
+}
+float test6()
+{
+	int i;
+	i = 0;
+	while(i<1)
+	{
+		i = i+1;
+		if(i == 1)
+			switch(i)
+			{
+				case 1: 
+					if(i == 1)
+						while(i == 1)
+						{
+							return (1.0);
+						}
+			}
+	}
+}
+void main()
+{
+	int inputInt2;
+	char ch;
+	ch='a';
+	while(1)
+	{
+		printf("      input 1-8");
+		scanf(inputInt2);
+		switch(inputInt2)
+		{
+			case 1: test1(1,'a',0.0);
+			case 2: test2();
+			case 3: test3(ch);
+			case 4: printf(testWhile());
+			case 5: output(5);
+			case 6: test4();
+			case 7: test5();
+			case 8: test6();
+		}
+	}
+	
+}
+

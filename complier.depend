@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1481014383 source:/home/misiyu/projectfile/c++/complier/main.cpp
+	<iostream>
+	"ProgameAnalyze.h"
+
+1481250309 source:/home/misiyu/projectfile/c++/complier/WordAnalyze.cpp
+	"WordAnalyze.h"
+
+1481249198 /home/misiyu/projectfile/c++/complier/WordAnalyze.h
+	<stdio.h>
+	"Global.h"
+	"Interpret.h"
+
+1481249152 /home/misiyu/projectfile/c++/complier/Global.h
+	"MyEnum.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+
+1480044771 /home/misiyu/projectfile/c++/complier/MyEnum.h
+
+1479169732 source:/home/misiyu/projectfile/c++/complier/FunctionAnalyze.cpp
+
+1481252014 source:/home/misiyu/projectfile/c++/complier/ProgameAnalyze.cpp
+	"ProgameAnalyze.h"
+
+1480571566 /home/misiyu/projectfile/c++/complier/ProgameAnalyze.h
+	"ProdAnlzFather.h"
+	"FuncAnaly.h"
+
+1480571408 /home/misiyu/projectfile/c++/complier/ProdAnlzFather.h
+	"WordAnalyze.h"
+	"Errors.h"
+
+1481074541 source:/home/misiyu/projectfile/c++/complier/Global.cpp
+	"Global.h"
+
+1481195381 source:/home/misiyu/projectfile/c++/complier/FuncAnaly.cpp
+	"FuncAnaly.h"
+
+1481275552 /home/misiyu/projectfile/c++/complier/FuncAnaly.h
+	"ProdAnlzFather.h"
+	"Expression.h"
+
+1481103423 source:/home/misiyu/projectfile/c++/complier/ProdAnlzFather.cpp
+	"ProdAnlzFather.h"
+
+1481160414 source:/home/misiyu/projectfile/c++/complier/Table.cpp
+	"Table.h"
+
+1481194110 source:/home/misiyu/projectfile/c++/complier/Expression.cpp
+	"Expression.h"
+
+1481108060 /home/misiyu/projectfile/c++/complier/Expression.h
+	"WordAnalyze.h"
+	"FuncAnaly.h"
+
+1481102124 /home/misiyu/projectfile/c++/complier/Table.h
+	"Global.h"
+	"stdlib.h"
+
+1481157054 /home/misiyu/projectfile/c++/complier/Interpret.h
+	"Table.h"
+
+1481250265 source:/home/misiyu/projectfile/c++/complier/Interpret.cpp
+	"Interpret.h"
+
+1481251510 source:/home/misiyu/projectfile/c++/complier/Errors.cpp
+	"Errors.h"
+
+1481090070 /home/misiyu/projectfile/c++/complier/Errors.h
+	"WordAnalyze.h"
+
+1483012778 source:d:\study\computerl\c++\complier\funcanaly.cpp
+	"FuncAnaly.h"
+
+1481424451 d:\study\computerl\c++\complier\funcanaly.h
+	"ProdAnlzFather.h"
+	"Expression.h"
+
+1480571408 d:\study\computerl\c++\complier\prodanlzfather.h
+	"WordAnalyze.h"
+	"Errors.h"
+
+1482471500 d:\study\computerl\c++\complier\wordanalyze.h
+	<stdio.h>
+	"Global.h"
+	"Interpret.h"
+
+1482926098 d:\study\computerl\c++\complier\global.h
+	"MyEnum.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+
+1482471774 d:\study\computerl\c++\complier\myenum.h
+
+1481157054 d:\study\computerl\c++\complier\interpret.h
+	"Table.h"
+
+1482906483 d:\study\computerl\c++\complier\table.h
+	"Global.h"
+	"stdlib.h"
+
+1482464489 d:\study\computerl\c++\complier\errors.h
+	"WordAnalyze.h"
+
+1482238055 d:\study\computerl\c++\complier\expression.h
+	"WordAnalyze.h"
+	"FuncAnaly.h"
+
+1482461876 source:d:\study\computerl\c++\complier\global.cpp
+	"Global.h"
+
+1482461773 source:d:\study\computerl\c++\complier\interpret.cpp
+	"Interpret.h"
+
+1482241356 source:d:\study\computerl\c++\complier\main.cpp
+	<iostream>
+	"ProgameAnalyze.h"
+
+1480571566 d:\study\computerl\c++\complier\progameanalyze.h
+	"ProdAnlzFather.h"
+	"FuncAnaly.h"
+
+1482469531 source:d:\study\computerl\c++\complier\prodanlzfather.cpp
+	"ProdAnlzFather.h"
+
+1483011602 source:d:\study\computerl\c++\complier\progameanalyze.cpp
+	"ProgameAnalyze.h"
+
+1482836877 source:d:\study\computerl\c++\complier\wordanalyze.cpp
+	"WordAnalyze.h"
+
+1483012717 source:d:\study\computerl\c++\complier\errors.cpp
+	"Errors.h"
+
+1482812398 source:d:\study\computerl\c++\complier\expression.cpp
+	"Expression.h"
+
+1482835064 source:d:\study\computerl\c++\complier\table.cpp
+	"Table.h"
+

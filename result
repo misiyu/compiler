@@ -1,0 +1,15 @@
+const_sy  const               
+int_sy  int                 
+ident  n                   
+becomes  =
+intcon  1
+semicolon  ;
+void_sy  void                
+ident  main                
+lparent  (
+rparent  )
+lbrace  {
+int_sy  int                 
+ident  n                   
+semicolon  ;
+rbrace  }

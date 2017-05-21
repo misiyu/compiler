@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="complier" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/complier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/complier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Errors.cpp" />
+		<Unit filename="Errors.h" />
+		<Unit filename="Expression.cpp" />
+		<Unit filename="Expression.h" />
+		<Unit filename="FuncAnaly.cpp" />
+		<Unit filename="FuncAnaly.h" />
+		<Unit filename="Global.cpp" />
+		<Unit filename="Global.h" />
+		<Unit filename="Interpret.cpp" />
+		<Unit filename="Interpret.h" />
+		<Unit filename="MyEnum.h" />
+		<Unit filename="ProdAnlzFather.cpp" />
+		<Unit filename="ProdAnlzFather.h" />
+		<Unit filename="ProgameAnalyze.cpp" />
+		<Unit filename="ProgameAnalyze.h" />
+		<Unit filename="Table.cpp" />
+		<Unit filename="Table.h" />
+		<Unit filename="WordAnalyze.cpp" />
+		<Unit filename="WordAnalyze.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
